@@ -1,12 +1,8 @@
-import TestWrapper from "./styles/TestStyles";
+import { Ad } from "./components/Ad";
 
 function App() {
   return (
-    <TestWrapper>
-      <p>This does not error out.</p>
-      <p>Styled-components work in the app as well.</p>
-      
-    </TestWrapper>
+    <Ad />
   );
 }
 
