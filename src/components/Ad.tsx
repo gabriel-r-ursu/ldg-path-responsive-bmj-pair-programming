@@ -1,6 +1,6 @@
-import { StyledAd } from "../styles/Ad.styles";
+import { StyledAd } from "../styles/Ad.styled";
 
-export const Ad = () => {
+export const Ad:React.FC = ():JSX.Element => {
   return (
     <StyledAd>
       <span>Ad component</span>
