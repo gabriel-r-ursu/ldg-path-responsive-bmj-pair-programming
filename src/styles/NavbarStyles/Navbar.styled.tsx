@@ -4,7 +4,8 @@ const StyledNavbar = styled.nav`
   height: 3rem;
   background-color: #2a6eba;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  gap: 1rem;
   padding: 0 1rem;
 `;
 
