@@ -1,5 +1,5 @@
 import StyledHeadlines from "../../styles/HeadlinesStyles/Headlines.styled";
-import MainHeadlines from "./MainHeadline";
+import MainHeadlines from "./MainHeadlines";
 
 const Headlines: React.FC = (): JSX.Element => {
   return (
