@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/ldg-path-responsive-bmj-pair-programming/static/js/main.e6e201a5.chunk.js",
+    "main.js.map": "/ldg-path-responsive-bmj-pair-programming/static/js/main.e6e201a5.chunk.js.map",
+    "runtime-main.js": "/ldg-path-responsive-bmj-pair-programming/static/js/runtime-main.6fb00a48.js",
+    "runtime-main.js.map": "/ldg-path-responsive-bmj-pair-programming/static/js/runtime-main.6fb00a48.js.map",
+    "static/js/2.70f8169c.chunk.js": "/ldg-path-responsive-bmj-pair-programming/static/js/2.70f8169c.chunk.js",
+    "static/js/2.70f8169c.chunk.js.map": "/ldg-path-responsive-bmj-pair-programming/static/js/2.70f8169c.chunk.js.map",
+    "index.html": "/ldg-path-responsive-bmj-pair-programming/index.html",
+    "static/js/2.70f8169c.chunk.js.LICENSE.txt": "/ldg-path-responsive-bmj-pair-programming/static/js/2.70f8169c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6fb00a48.js",
+    "static/js/2.70f8169c.chunk.js",
+    "static/js/main.e6e201a5.chunk.js"
+  ]
+}
