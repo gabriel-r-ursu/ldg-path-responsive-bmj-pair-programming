@@ -10,6 +10,10 @@ const StyledMainImg = styled.div`
 
   margin: 0.5rem 0;
   background-color: thistle;
+
+  @media (min-width: 600px) {
+    margin: 0;
+  }
 `;
 
 export default StyledMainImg;

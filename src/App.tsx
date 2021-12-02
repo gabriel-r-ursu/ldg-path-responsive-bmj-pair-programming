@@ -3,6 +3,7 @@ import { GlobalStyle } from "./styles/GlobalStyles";
 import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
 import Headlines from "./components/Headlines/Headlines";
+import AppWrapper from "./styles/AppWrapper.styled";
 
 function App() {
   return (
@@ -11,7 +12,9 @@ function App() {
       <Ad />
       <Header />
       <Navbar />
-      <Headlines />
+      <AppWrapper>
+        <Headlines />
+      </AppWrapper>
     </>
   );
 }
