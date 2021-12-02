@@ -2,6 +2,7 @@ import { Ad } from "./components/Ad/Ad";
 import { GlobalStyle } from "./styles/GlobalStyles";
 import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
+import Headlines from "./components/Headlines/Headlines";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Ad />
       <Header />
       <Navbar />
+      <Headlines />
     </>
   );
 }
