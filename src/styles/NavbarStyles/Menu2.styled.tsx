@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
-const Menu1Wrapper = styled.ul`
+const Menu2Wrapper = styled.ul`
   display: none;
 
-  @media (min-width: 960px) {
+  @media (min-width: 1280px) {
     margin: 0;
     padding: 0;
 
@@ -14,4 +14,4 @@ const Menu1Wrapper = styled.ul`
   }
 `;
 
-export default Menu1Wrapper;
+export default Menu2Wrapper;
