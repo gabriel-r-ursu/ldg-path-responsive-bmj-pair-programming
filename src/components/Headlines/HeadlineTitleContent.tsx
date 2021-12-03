@@ -1,4 +1,4 @@
-import StyledArticleTitle from "../../styles/HeadlinesStyles/ArticleTitle.styled";
+import { StyledArticleTitle } from "../../styles/HeadlinesStyles/ArticleTitle.styled";
 import StyledHeadlineTitleContent from "../../styles/HeadlinesStyles/HeadlineTitleContent.styled";
 import StyledLowerDetails from "../../styles/HeadlinesStyles/LowerDetails.styled";
 import Category from "./Category";

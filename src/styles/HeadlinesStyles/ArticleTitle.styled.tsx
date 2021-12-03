@@ -1,5 +1,10 @@
 import styled from "styled-components";
 
-const StyledArticleTitle = styled.h4``;
+export const StyledArticleTitle = styled.h4`
+  font-weight: 300;
+`;
 
-export default StyledArticleTitle;
+export const CategoryTitle = styled(StyledArticleTitle)`
+  font-size: 1.3rem;
+  font-weight: 900;
+`;
