@@ -1,4 +1,4 @@
-import StyledArticle from "../../styles/HeadlinesStyles/Article.styled";
+import { StyledArticle } from "../../styles/HeadlinesStyles/Article.styled";
 
 const SecondaryArticle: React.FC = (): JSX.Element => {
   return (

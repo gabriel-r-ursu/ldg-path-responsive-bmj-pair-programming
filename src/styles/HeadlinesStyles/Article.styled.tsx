@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const StyledArticle = styled.article`
+export const StyledArticle = styled.article`
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
@@ -8,4 +8,6 @@ const StyledArticle = styled.article`
   line-height: 1.5;
 `;
 
-export default StyledArticle;
+export const StyledHealthContent = styled(StyledArticle)`
+  font-size: 0.8rem;
+`;

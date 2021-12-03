@@ -1,4 +1,4 @@
-import StyledArticle from "../../styles/HeadlinesStyles/Article.styled";
+import { StyledArticle } from "../../styles/HeadlinesStyles/Article.styled";
 import Border from "../../styles/HeadlinesStyles/Border.styled";
 
 const Article: React.FC = (): JSX.Element => {
