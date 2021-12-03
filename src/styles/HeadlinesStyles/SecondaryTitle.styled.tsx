@@ -15,3 +15,5 @@ export const SecondaryDesktopTitle = styled(SecondaryTitle)`
     display: block;
   }
 `;
+
+export const StyledLatestArticlesTitle = styled.h3``;

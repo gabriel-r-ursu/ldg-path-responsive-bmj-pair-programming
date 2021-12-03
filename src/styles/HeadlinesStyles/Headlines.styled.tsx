@@ -6,6 +6,10 @@ const StyledHeadlines = styled.section`
   flex-direction: column;
   gap: 1rem;
 
+  @media (min-width: 600px) {
+    margin-top: 1.5rem;
+  }
+
   @media (min-width: 960px) {
     display: grid;
     grid-template-columns: 80% 20%;
