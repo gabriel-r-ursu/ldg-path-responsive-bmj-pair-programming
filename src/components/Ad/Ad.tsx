@@ -1,9 +1,9 @@
-import { StyledAd } from "../../styles/AdStyles/Ad.styled";
+import { StyledHeaderAd } from "../../styles/AdStyles/Ad.styled";
 
 export const Ad: React.FC = (): JSX.Element => {
   return (
-    <StyledAd>
+    <StyledHeaderAd>
       <span>Ad component</span>
-    </StyledAd>
+    </StyledHeaderAd>
   );
 };

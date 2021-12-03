@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Headlines from "./components/Headlines/Headlines";
 import AppWrapper from "./styles/AppWrapper.styled";
 import LatestArticles from "./components/LatestArticles/LatestArticles";
+import HealthArticles from "./components/HealthArticles/HealthArticles";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <AppWrapper>
         <Headlines />
         <LatestArticles />
+        <HealthArticles />
       </AppWrapper>
     </>
   );
