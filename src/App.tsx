@@ -15,8 +15,8 @@ function App() {
       <Navbar />
       <AppWrapper>
         <Headlines />
+        <LatestArticles />
       </AppWrapper>
-      <LatestArticles />
     </>
   );
 }
