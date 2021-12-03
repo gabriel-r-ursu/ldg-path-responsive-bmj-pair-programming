@@ -14,5 +14,5 @@ export const StyledHeaderAd = styled(StyledAd)`
 
 export const StyledMiddleAd = styled(StyledAd)`
   height: 600px;
-  width: 300px;
+  width: 18rem;
 `;
