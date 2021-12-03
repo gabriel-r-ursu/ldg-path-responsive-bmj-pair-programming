@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 const StyledHeadlineTitles = styled.div`
+  position: relative;
+
   @media (min-width: 600px) {
     display: grid;
     grid-template-columns: repeat(4, 1fr);

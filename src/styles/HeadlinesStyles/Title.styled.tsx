@@ -1,9 +1,19 @@
 import styled from "styled-components";
 
-const StyledTitle = styled.h2`
+export const StyledTitle = styled.h2`
   @media (min-width: 600px) {
     padding-top: 1rem;
   }
+
+  @media (min-width: 960px) {
+    display: none;
+  }
 `;
 
-export default StyledTitle;
+export const StyledDesktopTitle = styled(StyledTitle)`
+  display: none;
+
+  @media (min-width: 960px) {
+    display: block;
+  }
+`;

@@ -6,6 +6,9 @@ const ArticleWrapper = styled.div`
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
   }
+
+  @media (min-width: 960px) {
+  }
 `;
 
 export default ArticleWrapper;
