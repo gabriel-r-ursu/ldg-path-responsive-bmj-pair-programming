@@ -6,8 +6,10 @@ import SecondaryHeadlines from "./SecondaryHeadlines";
 const Headlines: React.FC = (): JSX.Element => {
   return (
     <StyledHeadlines>
-      <MainHeadlines />
-      <SecondaryHeadlines />
+      <div>
+        <MainHeadlines />
+        <SecondaryHeadlines />
+      </div>
       <HeadlineTitles />
     </StyledHeadlines>
   );
