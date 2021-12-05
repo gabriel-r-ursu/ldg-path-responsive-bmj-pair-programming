@@ -1,4 +1,4 @@
-import { StyledMiddleAd } from "../../styles/AdStyles/Ad.styled";
+import { $MiddleAd } from "../../styles/AdStyles/$Ad";
 import StyledHealthArticles from "../../styles/HealthArticles/HealthArticles.styled";
 import HealthArticlesContent from "./HealthArticlesContent";
 
@@ -6,9 +6,9 @@ const HealthArticles: React.FC = (): JSX.Element => {
   return (
     <StyledHealthArticles>
       <HealthArticlesContent />
-      <StyledMiddleAd>
+      <$MiddleAd>
         <span>Middle Ad Component</span>
-      </StyledMiddleAd>
+      </$MiddleAd>
     </StyledHealthArticles>
   );
 };

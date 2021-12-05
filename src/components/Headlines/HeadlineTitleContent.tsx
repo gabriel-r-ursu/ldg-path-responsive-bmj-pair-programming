@@ -1,4 +1,4 @@
-import { StyledArticleTitle } from "../../styles/HeadlinesStyles/ArticleTitle.styled";
+import { $ArticleTitle } from "../../styles/HeadlinesStyles/$ArticleTitle";
 import StyledHeadlineTitleContent from "../../styles/HeadlinesStyles/HeadlineTitleContent.styled";
 import StyledLowerDetails from "../../styles/HeadlinesStyles/LowerDetails.styled";
 import Category from "./Category";
@@ -7,9 +7,9 @@ import Date from "./Date";
 const HeadlineTitleContent: React.FC = (): JSX.Element => {
   return (
     <StyledHeadlineTitleContent>
-      <StyledArticleTitle>
+      <$ArticleTitle>
         Lorem ipsum dolor sit amet consectetur adipisicing.
-      </StyledArticleTitle>
+      </$ArticleTitle>
       <StyledLowerDetails>
         <Category />
         <Date />

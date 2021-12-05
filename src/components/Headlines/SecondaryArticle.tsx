@@ -1,11 +1,11 @@
-import { StyledArticle } from "../../styles/HeadlinesStyles/Article.styled";
+import { $Article } from "../../styles/HeadlinesStyles/$Article";
 
 const SecondaryArticle: React.FC = (): JSX.Element => {
   return (
-    <StyledArticle>
+    <$Article>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis esse
       quibusdam nesciunt molestias voluptate ducimus.
-    </StyledArticle>
+    </$Article>
   );
 };
 

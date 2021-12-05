@@ -1,5 +1,5 @@
-import { StyledHealthContent } from "../../styles/HeadlinesStyles/Article.styled";
-import { StyledArticleTitle } from "../../styles/HeadlinesStyles/ArticleTitle.styled";
+import { $HealthContent } from "../../styles/HeadlinesStyles/$Article";
+import { StyledArticleTitle } from "../../styles/HeadlinesStyles/$ArticleTitle";
 import StyledMainImg from "../../styles/HeadlinesStyles/MainHeadlineImg.styled";
 import StyledArticlesWithImg from "../../styles/HealthArticles/ArticlesWithImg.styled";
 import StyledLowerDetails from "../../styles/HeadlinesStyles/LowerDetails.styled";
@@ -13,11 +13,11 @@ const HealthArticlesWithImg: React.FC = (): JSX.Element => {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ducimus
         repellendus fuga eius.
       </StyledArticleTitle>
-      <StyledHealthContent>
+      <$HealthContent>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta
         recusandae enim facere maiores quisquam iste soluta, quasi ullam
         delectus pariatur.
-      </StyledHealthContent>
+      </$HealthContent>
       <StyledLowerDetails>
         <Category />
         <Date />

@@ -2,7 +2,7 @@ import StyledLatestArticlesCategory from "../../styles/LatestArticles/LatestArti
 import {
   StyledArticleTitle,
   CategoryTitle,
-} from "../../styles/HeadlinesStyles/ArticleTitle.styled";
+} from "../../styles/HeadlinesStyles/$ArticleTitle";
 import SecondaryHeadlineImg from "../Headlines/SecondaryHeadlineImg";
 
 const LatestArticlesCategory: React.FC = (): JSX.Element => {

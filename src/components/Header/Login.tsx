@@ -1,13 +1,13 @@
-import StyledLogin from "../../styles/HeaderStyles/Login.styled";
+import $Login from "../../styles/HeaderStyles/$Login";
 
 const Login: React.FC = (): JSX.Element => {
   return (
-    <StyledLogin>
+    <$Login>
       <li>Our Company</li>
       <li>Subscribe</li>
       <li>My Account</li>
       <li>Login</li>
-    </StyledLogin>
+    </$Login>
   );
 };
 

@@ -1,6 +1,6 @@
-import styled from "styled-components";
+import $ from "styled-components";
 
-const StyledHeader = styled.div`
+const $Header = $.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,4 +10,4 @@ const StyledHeader = styled.div`
   background-color: #e4c8c8;
 `;
 
-export default StyledHeader;
+export default $Header;

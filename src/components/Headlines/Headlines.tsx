@@ -2,15 +2,15 @@ import StyledHeadlines from "../../styles/HeadlinesStyles/Headlines.styled";
 import HeadlineTitles from "./HeadlineTitles";
 import MainHeadlines from "./MainHeadlines";
 import SecondaryHeadlines from "./SecondaryHeadlines";
-import { StyledArticle } from "../../styles/HeadlinesStyles/Article.styled";
+import { $Article } from "../../styles/HeadlinesStyles/$Article";
 
 const Headlines: React.FC = (): JSX.Element => {
   return (
     <StyledHeadlines>
-      <StyledArticle>
+      <$Article>
         <MainHeadlines />
         <SecondaryHeadlines />
-      </StyledArticle>
+      </$Article>
       <HeadlineTitles />
     </StyledHeadlines>
   );

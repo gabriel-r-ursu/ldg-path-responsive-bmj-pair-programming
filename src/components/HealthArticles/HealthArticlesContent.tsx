@@ -1,14 +1,14 @@
 import StyledHealthArticlesContent from "../../styles/HealthArticles/HealthArticlesContent.styled";
 import HealthArticlesWithImg from "./HealthArticlesWithImg";
 import HealthArticleTitles from "./HealthArticleTitles";
-import { CategoryTitle } from "../../styles/HeadlinesStyles/ArticleTitle.styled";
+import { $CategoryTitle } from "../../styles/HeadlinesStyles/$ArticleTitle";
 
 const HealthArticlesContent: React.FC = (): JSX.Element => {
   return (
     <StyledHealthArticlesContent>
-      <CategoryTitle>
+      <$CategoryTitle>
         Lorem ipsum dolor sit amet consectetur adipisicing.
-      </CategoryTitle>
+      </$CategoryTitle>
       <HealthArticlesWithImg />
       <HealthArticleTitles />
       {/*

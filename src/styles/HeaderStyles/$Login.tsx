@@ -1,6 +1,6 @@
-import styled from "styled-components";
+import $ from "styled-components";
 
-const StyledLogin = styled.ul`
+const $Login = $.ul`
   display: none;
 
   margin: 0;
@@ -22,4 +22,4 @@ const StyledLogin = styled.ul`
   }
 `;
 
-export default StyledLogin;
+export default $Login;
