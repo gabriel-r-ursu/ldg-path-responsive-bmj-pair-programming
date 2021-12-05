@@ -1,33 +1,33 @@
 import StyledLatestArticlesCategory from "../../styles/LatestArticles/LatestArticlesCategory.styled";
 import {
-  StyledArticleTitle,
-  CategoryTitle,
+  $ArticleTitle,
+  $CategoryTitle,
 } from "../../styles/HeadlinesStyles/$ArticleTitle";
 import SecondaryHeadlineImg from "../Headlines/SecondaryHeadlineImg";
 
 const LatestArticlesCategory: React.FC = (): JSX.Element => {
   return (
     <StyledLatestArticlesCategory>
-      <CategoryTitle>Lorem</CategoryTitle>
+      <$CategoryTitle>Lorem</$CategoryTitle>
       <SecondaryHeadlineImg></SecondaryHeadlineImg>
-      <StyledArticleTitle>
+      <$ArticleTitle>
         Lorem ipsum dolor sit, amet consectetur adipisicing.
-      </StyledArticleTitle>
-      <StyledArticleTitle>
+      </$ArticleTitle>
+      <$ArticleTitle>
         Lorem ipsum dolor sit, amet consectetur adipisicing.
-      </StyledArticleTitle>
-      <StyledArticleTitle>
+      </$ArticleTitle>
+      <$ArticleTitle>
         Lorem ipsum dolor sit, amet consectetur adipisicing.
-      </StyledArticleTitle>
-      <StyledArticleTitle>
+      </$ArticleTitle>
+      <$ArticleTitle>
         Lorem ipsum dolor sit, amet consectetur adipisicing.
-      </StyledArticleTitle>
-      <StyledArticleTitle>
+      </$ArticleTitle>
+      <$ArticleTitle>
         Lorem ipsum dolor sit, amet consectetur adipisicing.
-      </StyledArticleTitle>
-      <StyledArticleTitle>
+      </$ArticleTitle>
+      <$ArticleTitle>
         Lorem ipsum dolor sit, amet consectetur adipisicing.
-      </StyledArticleTitle>
+      </$ArticleTitle>
       {/*
       border top
       */}
